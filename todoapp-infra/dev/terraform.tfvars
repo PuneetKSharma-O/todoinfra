@@ -11,10 +11,6 @@ resource_groups = {
     name     = "rg3-todoapp"
     location = "Central India"
   }
-  rg4 = {
-    name     = "rg4-todoapp"
-    location = "Central India"
-  }
 }
 storage_accounts = {
   sa1 = {
