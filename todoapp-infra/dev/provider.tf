@@ -6,11 +6,11 @@ terraform {
       version = "4.34.0"
     }
   }
-  backend "azurerm" {
-    resource_group_name  = ""
-    storage_account_name = ""
-    container_name       = ""
-    key                  = ""
+   backend "azurerm" {
+    resource_group_name  = "test"
+    storage_account_name = "teststg1990"
+    container_name       = "test"
+    key                  = "test"
 
   }
 }
